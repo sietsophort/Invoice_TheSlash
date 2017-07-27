@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        body {
+            /*width: 21cm;*/
+            /*height: 29.7cm;*/
+
+        }
+        
+        .page {
+            position: relative;
+            width: 794px;
+            height: 1122px;
+            margin: auto;
+        }
+        
+        .HeaderImage {
+            width: 100%;
+            height: 200px;
+        }
+        
+        .Header {
+            width: 100%;
+            height: 100px;
+        }
+        
+        .Header h2 {
+            text-align: center;
+            margin-top: -15px;
+        }
+        
+        .Header h3 {
+            text-align: center;
+            top: 0;
+            margin-top: -20px;
+        }
+        
+        .Header p {
+            text-align: center;
+            font-size: 15px;
+            margin-top: -15px;
+            top:0;
+
+
+        }
+        
+        .contain {
+            width: 100%;
+            height: 100px;
+            position: absolute;
+            margin: auto;
+            margin-top: 50px;
+            /*background-color: aquamarine;*/
+
+        }
+        
+        .JwdAsia {
+            width: 50%;
+            float: left;
+            height: 100px;
+            margin: 0;
+        }
+        
+        #JWD {
+            margin: 0;
+            top: -10px;
+            font-size: 12px;
+            margin-top: 5px;
+            margin-left: 80px;
+            /*background-color: chocolate;*/
+        }
+        
+        #cambo{
+            margin: 0;
+            top:0;
+            font-size: 13px;
+            margin-top: 10px;
+            margin-left: 20px;
+        }
+        
+        .Date {
+            width: 50%;
+            float: right;
+            height: 100px;
+            margin: 0;
+            margin-top: -5px;
+        }
+        
+        #INV {
+            margin: auto;
+            top: 0px;
+            font-size: 13px;
+            margin-top: 10px;
+            margin-left: 100px;
+        }
+        
+        .Date p {
+            margin: 0;
+            top: -5px;
+            font-size: 13px;
+            margin-top:3px;
+            margin-left: 100px;
+        }
+
+        .TextCenter {
+            width: 100%;
+            height: 150px;
+            position: absolute;
+            margin: auto;
+            margin-top: 60px;
+            /*background-color: gainsboro;*/
+        }
+        .Textleft {
+            float: left;
+            width: 50%;
+            height: 150px;
+            margin-top:15px;
+            /*margin: auto;*/
+            /*background-color: aqua;*/
+        }
+
+
+
+        #text1{
+            margin: auto;
+            top: 0;
+            /*text-align: justify;*/
+            font-size: 13px;
+            margin-top:15px;
+            margin-left: 20px;
+        }
+
+        #text2{
+            margin: auto;
+            top: 0;
+            /*text-align: justify;*/
+            font-size: 13px;
+            margin-top: 5px;
+            margin-left: 20px;
+        }
+        #text3{
+            margin: auto;
+            top: 0;
+            /*text-align: justify;*/
+            font-size: 13px;
+            margin-top: 5px;
+            margin-left: 20px;
+        }
+        
+        .Textright {
+            float: right;
+            width: 50%;
+            height: 150px;
+            margin-top: 0;
+            margin: auto;
+            /*background-color: chocolate;*/
+        }
+        
+        .Textright p {
+            font-size: 12px;
+            text-align: justify;
+            /*margin: auto;*/
+            margin-top: 25px;
+            margin-left: 120px;
+        }
+        
+        .Tablelist {
+            width: 100%;
+            height: 450px;
+            margin: auto;
+            position: absolute;
+            margin-top: 180px;
+        }
+        
+        .columTable {
+            width: 95%;
+            height: auto;
+            /*margin: auto;*/
+            margin-top: 10px;
+            font-size: 15px;
+            margin-left: 20px;
+        }
+
+        
+        table,th,td {
+            border:1px solid gainsboro;
+            border-collapse: collapse;
+        }
+
+        
+        .footer {
+            width: 100%;
+            height: 200px;
+            margin: auto;
+            position: absolute;
+            margin-top: 650px;
+        }
+        
+        .footerleft {
+            float: left;
+            width: 50%;
+            height: 200px;
+            margin-top: 0;
+            margin: auto;
+        }
+        
+        .footeright {
+            float: right;
+            width: 50%;
+            height: 200px;
+            margin-top: 0;
+            margin: auto;
+        }
+        
+        #signalCS {
+            font-size: 13px;
+            margin: 0;
+            margin-left: 40px;
+        }
+        
+        #Customer {
+            font-size: 15px;
+            margin: 0;
+            margin-left: 30px;
+        }
+        
+        #seller {
+            font-size: 13px;
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+        
+        #Note {
+            font-size: 15px;
+            margin-top: -10px;
+            margin-left: 20px;
+        }
+        
+        #signalSL{
+            font-size: 13px;
+            margin-top:0;
+            margin-left: 200px;
+        }
+        #signseller{
+            font-size: 15px;
+            margin-top: -10px;
+            margin-left: 200px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="page">
+        <div class="HeaderImage">
+            <img src="image/logo1.png" style="height:200px; width: 100%;">
+
+        </div>
+
+        <div class="Header">
+            <h3 style="font-family: 'Kh Muol';margin-top: -20px">វិក្កយបត្រអាករ</h3>
+            <h3>TAX INVOICE</h3>
+            <p>លេខអត្តសញ្ញាណកម្ម អតប</p>
+            <p>(VATTIN) K003-107027518</p>
+        </div>
+
+        <div class="contain"style="margin-top: 25px">
+            <div class="JwdAsia">
+                <p id="cambo">អតិថិជនៈជេដាប់បែលយូឌី អេស៊ា ឡូជីស្ទីក (ខេមបូឌា)</p>
+                <p id="JWD">JWD ASIA LOGISTICS(CAMBODIA)CO.,LTD</p>
+            </div>
+
+            <div class="Date">
+                <P id="INV">លេខរៀងវិក្កយបត្រ INV.N<sup>o</sup><strong> :TT-1705046</strong></P>
+                <p>កាលបរិច្ឆេទ<strong>  Date :    25-May-2017</strong></p>
+            </div>
+        </div>
+
+        <div class="TextCenter">
+            <div class="Textleft">
+                <P id="text1">លេខអត្តសញ្ញាណកម្ម អតប : K004-901605002</P>
+                <p id="text2">អាសយដ្ឋាន អតិថិជន : ផ្ទះលេខ ២៧ ផ្លូវ ១៣៤</p>
+                <p id="text3">សង្កាត់ មិត្តភាព ខណ្ឌ ៧មករា រាជធានីភ្នំពេញ</P>
+
+            </div>
+
+            <div class="Textright">
+                <p>BL N<sup>o</sup> IN 17055002<br> CN N<sup>o</sup> 50 UNITS<br> IV N<sup>o</sup> RMA2017-0496<br> DELIVERY : 17-MAY-2017<br> RMA (NEW FORD RANGER)<br>
+                </p>
+            </div>
+        </div>
+
+        <div class="Tablelist">
+            <table class="columTable">
+                <tr>
+                    <th><label style="">ល.រ<br>No</label></th>
+                    <th colspan="3"><label style="margin-left:-3px; font-family:content;">បរិយាយមុខទំនិញ<br>Description</label></th>
+                    <th><label style="margin-left:1px; font-family:content;">បរិមាណ<br> Quantity</label></th>
+                    <th><label style="margin-left:-2px; font-family:content;">ថ្លៃឯកតា<br>Unit Price</label></th>
+                    <th><label style="margin-left:-2px; font-family:content;">ថ្លៃទំនិញ<br>Amount</label></th>
+                </tr>
+                <tr>
+                    <td style="border-bottom: 1px solid white">1<br>
+                    <img src="image/logo2.png" style="width:600px;position: absolute;opacity: 0.1;margin-top: -110px;margin-left: 100px;">
+                    
+                    </td>
+                    <td style="border-bottom: 1px solid white;border-right: 1px solid white;">បែបបទឯកសារនាំចូល</td>
+                    <td style="border-bottom: 1px solid white;border-right: 1px solid white">ClearanceService</td>
+                    <td style="width:100px; border-bottom: 1px solid white;"></td>
+                    <td style="border-bottom: 1px solid white;text-align: center;">50</td>
+                    <td style="border-bottom: 1px solid white;text-align: center;">79.60</td>
+                    <td style="border-bottom: 1px solid white;text-align: center;">3,980,00</td>
+
+                </tr>
+                <tr>
+                    <td style="border-bottom: 1px solid white">2</td>
+                    <td style="border-bottom: 1px solid white;border-right: 1px solid white;">ចារតំលៃ</td>
+                    <td style="border-bottom: 1px solid white;border-right: 1px solid white">Customs Approval</td>
+                    <td style="width:100px; border-bottom: 1px solid white;"></td>
+                    <td style="border-bottom: 1px solid white;text-align: center;">1</td>
+                    <td style="border-bottom: 1px solid white;text-align: center;">1,280.00</td>
+                    <td style="border-bottom: 1px solid white;text-align: center;">1,280.00</td>
+
+                </tr>
+                <tr>
+                    <td style="border-bottom: 1px solid white">3</td>
+                    <td style="border-bottom: 1px solid white;border-right: 1px solid white;">ឯកសារទំរង់ឌី</td>
+                    <td style="border-bottom: 1px solid white;border-right: 1px solid white">ApplyFormD</td>
+                    <td style="width:100px; border-bottom: 1px solid white;"></td>
+                    <td style="border-bottom: 1px solid white;text-align: center;">1</td>
+                    <td style="border-bottom: 1px solid white;text-align: center;">350.00</td>
+                    <td style="border-bottom: 1px solid white;text-align: center;">350.00</td>
+                </tr>
+                <tr>
+
+                    <td style="border-bottom: 1px solid white">4</td>
+                    <td style="border-bottom: 1px solid white;border-right: 1px solid white;">ឯកសារប្រញាប់</td>
+                    <td style="border-bottom: 1px solid white;border-right: 1px solid white">Express </td>
+                    <td style="width:100px; border-bottom: 1px solid white;"></td>
+                    <td style="border-bottom: 1px solid white;text-align: center;">1</td>
+                    <td style="border-bottom: 1px solid white;text-align: center;">100.00</td>
+                    <td style="border-bottom: 1px solid white;text-align: center;">100.00</td>
+                </tr>
+                <tr>
+
+                    <td style="padding-top:150px;"></td>
+                    <td style="padding-top:150px;border-right: 1px solid white"></td>
+                    <td style="padding-top:150px;border-right: 1px solid white"></td>
+                    <td style="padding-top:150px"></td>
+                    <td style="padding-top:150px"></td>
+                    <td style="padding-top:150px"></td>
+                    <td style="padding-top:150px"></td>
+
+
+
+                </tr>
+                <tr>
+                    <th colspan="4"><label style="margin-left:-60px;font-size: 10px">SIX THOUSAND TWO HUNDRED AND EIGHTY ONE ONLY</label></th>
+                    <th colspan="2"><label style="margin-left:10px; ">សរុប Sub Total:</label></th>
+                    <td style=";text-align: center;"><strong>$5,710.00</strong></td>
+                </tr>
+
+                <tr>
+                <td colspan="3" style="border-left: 1px solid white;border-bottom: 1px solid white"></td>
+                <td colspan="3" style="text-align: center;padding-left: 10px;margin-left: 70px;">អាករលើតម្លៃបន្ថែម 10% VAT ( 10% )</td>
+                <td style="text-align:center"><strong>$571.00</strong></td>
+                </tr>
+
+                <tr>
+                    <td colspan="3" style="border-left: 1px solid white;border-bottom: 1px solid white"></td>
+                    <td colspan="3" style="text-align: center;padding-left: 10px;margin-left: 70px;">សរុបរួម Grand Total:</td>
+                    <td style="text-align:center"><strong>$6,281.00</strong></td>
+                </tr>
+
+            </table>
+
+        </div>
+
+        <div class="footer">
+            <div class="footerleft">
+                <hr style="width:50%; margin-left:20px;">
+                <p id="signalCS">ហត្ថលេខា និងឈ្មោះអ្នកទិញ</p>
+                <p id="Customer">Customer's Signature&Name</p>
+                <p id="seller"><strong>សម្គាល់:</strong>ច្បាប់ដើមសម្រាប់អ្នកទិញ ច្បាប់ចម្លងសម្រាប់អ្នកលក់</p>
+                <p id="Note"><strong>Note:</strong>Original invoice for custormer, copied invoice for seller</P>
+
+            </div>
+            <div class="footeright">
+                <hr style="text-align: center;width:50%; margin-left:170px; ">
+                <p id="signalSL">ហត្ថលេខា និងឈ្មោះអ្នកលក់</p>
+                <p id="signseller">Seller's Signature&Name</p>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
